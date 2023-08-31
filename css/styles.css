@@ -1,0 +1,209 @@
+    /* Style for profile section */
+    .profile {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .profile img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    /* Style for navigation menu */
+    .nav-sidebar {
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-right: 1px solid #e9ecef;
+    }
+
+    .nav-sidebar h3 {
+        font-size: 1.2rem;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .nav-sidebar .nav-link {
+        padding: 10px 20px;
+        color: #333;
+    }
+
+    .nav-sidebar .nav-link:hover {
+        background-color: #e9ecef;
+    }
+
+    .nav-sidebar .active .nav-link {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    .nav-sidebar .dropdown-menu {
+        background-color: #101113;
+        border: none;
+        box-shadow: none;
+    }
+
+    .nav-sidebar .dropdown-menu a {
+        color: hwb(0 99% 0%);
+        padding: 8px 20px;
+    }
+
+    .nav-sidebar .dropdown-menu a:hover {
+        background-color: #e9ecef;
+    }
+
+    .nav-sidebar .dropdown-menu .active a {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+.summary {
+    margin-top: 30px;
+}
+.summary-cards {
+    display: flex;
+   justify-content: space-around;
+    gap: 10px;
+}
+.nav-item:hover .nav-link {
+    background-color: white;
+}
+.summary-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+.summary-icon {
+    font-size: 2rem;
+   
+    margin-right: 15px;
+}
+.summary-text h4 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+.summary-text p {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #666;
+}
+body, h1, h2, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    padding-top: 58px; 
+    width: 250px; 
+    background-color: #343a40;
+    color: white;
+    overflow: auto;
+    height: 100%;
+
+}
+
+.main-content {
+    margin-left: 250px; 
+    padding-top: 15px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40;
+    color: white;
+}
+
+/* Adjust margins and padding as needed */
+
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px; /* Add some spacing at the bottom */
+    border-bottom: 1px solid #555; /* Add a separator line */
+}
+
+/* Profile picture styles */
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.profile h3 {
+    color: white;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #555;
+}
+
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    font-size: 2rem;
+    color: #333;
+}
+.content-section {
+   
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for section headers */
+.content-section h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Style for section text */
+.content-section p {
+    color: #666;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .content-section {
+        padding: 15px;
+    }
+}
